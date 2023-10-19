@@ -40,3 +40,5 @@ Copy the -> Key Tag | Algorithm | Digest Type | Digest
 ```
 Add new DS and Paste the -> Key Tag | Algorithm | Digest Type | Digest 
 ```
+### References
+[NameCheap CloudFlare](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-cloudflare-account/)
