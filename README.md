@@ -20,7 +20,7 @@ ssl_certificate_key /etc/cloudflare_ssl/key.pem;
 ```
 Add layer of security to your DNS to prevent fraudlent DNS and provide authenticity of DNS data
 ```
-1. In CloudFlare -> DNS -> Settings
+1. In CloudFlare -> DNS -> Settings -> Enable DNSSEC
 ```
 Copy the -> Key Tag | Algorithm | Digest Type | Digest
 ```
