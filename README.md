@@ -8,8 +8,8 @@ b. Copy the Origin Certificate and Private Key in your VPS/Webhosting
 ```
 2. In Ubuntu
 ```
-    Origin Certificate -> /etc/cloudflare_ssl/cert.pem
-    Private Key        -> /etc/cloudflare_ssl/key.pem    
+Origin Certificate -> /etc/cloudflare_ssl/cert.pem
+Private Key        -> /etc/cloudflare_ssl/key.pem    
 ```
 3. In NGINX
 ```
