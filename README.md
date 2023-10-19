@@ -1,9 +1,21 @@
 ## CLOUDFLARE-NOTES
-
+### Setup CloudFlare DNS Record and (Name Server (NS) and A Record)
+1. In CloudFlare -> DNS -> Records
+```
+Copy the CloudFlare Name Servers 
+```
+2. In NameCheap -> Domain List -> Domain
+```
+Paste the CloudFlare Name Servers in Name Cheap -> Name Servers -> Custom DNS
+```
+3. In CloudFlare -> DNS -> Records
+```
+Add Record your subdomains and other domains if not detected in the Table
+```
 ### Generate HTTPS (SSL/TLS) like Letsencrypt
 1. In CloudFlare -> SSL/TLS -> Origin Server -> Click Create Certificate
 ```
-a. Provide the Host Names (your domains and sub domains) the click Create
+a. Provide the Host Names (your domains and sub domains) then click Create
 b. Copy the Origin Certificate and Private Key in your VPS/Webhosting
 ```
 2. In Ubuntu
