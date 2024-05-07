@@ -1,4 +1,6 @@
 ## CLOUDFLARE-NOTES
+### Go to your Site
+1. Websites
 ### Setup CloudFlare DNS Record and (Name Server (NS) and A Record)
 1. In CloudFlare -> DNS -> Records
 ```
